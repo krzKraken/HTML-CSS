@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios</title>
+	</head>
+	<body>
+		<!-- method get to .html -->
+		<form action="results.html" method="get">
+			<div>
+				<!-- for => apunta al input,
+							name => id del parametro con que se envia -->
+				<label for="nombre-usuario"> User </label>
+				<!-- inputs type => tipo de input -->
+				<input name="user-name" id="nombre-usuario" required />
+			</div>
+			<br />
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" required />
+			</div>
+			<div>
+				<br>
+			<div>
+				<label for="edad">Edad</label>
+				<input type="number" name="edad" id="edad" min="1" max="120" step="5" required />
+			</div>
+			<br>
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<div>
+				<label for="fecha-nacimiento">Fecha de nacimiento</label>
+				<input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+			</div>
+			<div>
+				<br />
+				<label for="comentarios">Comentarios</label>
+				<textarea name="comentarios" id="comentarios" cols="30" rows="2"></textarea>
+			</div>
+			<br />
+			<button type="submit">Enviar</button>
+			<button type="reset">Reset</button>
+		</form>
+	</body>
+</html>
