@@ -1,0 +1,42 @@
+.colores {
+  color: red;
+}
+
+.color-hexadecimal {
+  color: #ECA72C;
+}
+
+.color-rgb {
+  color: rgb(237, 11, 124);
+}
+
+.color-rgba {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fondos {
+  /* background-color: cornflowerblue; */
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-psychedelic-colorful-background_23-2149075812.jpg?w=1060&t=st=1665957116~exp=1665957716~hmac=743f169a49a2f995a7bdf010ec49f25f2ef66b91f4ba73ee34f343ed71993b29");
+  background-position: center center;
+  max-width: max-content;
+}
+
+.ancho {
+  background-color: blue;
+  width: 100px;
+}
+
+.alto {
+  background-color: red;
+  height: 100px;
+}
+
+.tarjeta {
+  border-style: solid;
+  border-width: 10px;
+  border-top-width: 5px;
+  border-color: rgb(150, 150, 150);
+  border-width: 1px;
+  padding: 10px 20px;
+  margin: 10px;
+}

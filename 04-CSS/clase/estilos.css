@@ -1,0 +1,44 @@
+h1 {
+  color: rgb(253, 0, 0);
+}
+
+/* Colores y fuentes para parrafo */
+p {
+  color: blue;
+  font-size: large;
+}
+/* Selectores de id se coloca # */
+#primer-estilo {
+  color: green;
+  font-size: 20px;
+}
+/* parrafo e id */
+p#segundo-estilo {
+  color: pink
+}
+#primera-clase {
+  color: purple;
+}
+
+/* Para selectores de Clase se coloca . */
+.primera-clase {
+  color:yellowgreen;
+}
+
+/* Selectores universales */
+*.warning {
+  color: red;
+}
+.autor {
+  text-decoration: underline;
+}
+.fecha {
+  text-decoration: underline;
+}
+.ubicacion {
+  text-decoration: underline;
+}
+/* Varios selectores de clase */
+.autor, .fecha , .ubicacion {
+  color: green;
+}
