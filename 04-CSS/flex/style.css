@@ -1,0 +1,28 @@
+h1 {
+  background-color: yellow;
+}
+
+h2 {
+  background-color: blue;
+}
+
+h3 {
+  background-color: red;
+}
+
+.flex-container {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; */
+  flex-align: center;
+}
+
+.item {
+  display: flex;
+
+  background-color: red;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
