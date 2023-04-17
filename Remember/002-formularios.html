@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+
+        <!-- Actions es el url donde queremos enviar -->
+        <form action="resultados.html" method="GET">
+            <div>
+                <label for="name">Nombre de usuario</label>
+                <input type="text" name="user" id="username" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Cual es tu edad?</label>
+                <input type="number" name="edad" id="edad" min="0" max="100" step="1">
+            </div>
+            <br>
+            <div>
+                <label for="email">cual es tu email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="fecha">Fecha nacimiento</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="password">Contrasena</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </form>
+
+
+    </body>
+</html>
